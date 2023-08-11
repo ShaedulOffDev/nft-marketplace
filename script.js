@@ -50,7 +50,7 @@ window.addEventListener('scroll', e => {
     nav.classList.remove('hide-navbar')
   }
   $$('.tt').forEach(t => {
-    if(t.offsetTop < (window.scrollY + innerHeight)){
+    if(t.offsetTop < (window.scrollY + (window.innerWidth < 668 ? window.innerWidth * 1.8 : window.innerWidth / 2))){
       t.style.transform = "translateY(0)"
       t.style.opacity = 1
     }
