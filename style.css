@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+section{
+  padding-top: 0 !important;
+}
 .loader {
   width: 100%;
   height: 100%;
