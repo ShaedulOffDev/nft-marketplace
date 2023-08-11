@@ -1174,6 +1174,9 @@ main .contact-wrap2 form div button a {
   }
 }
 @media (max-width: 768.6px) {
+  main section{
+    padding: 20px 0 !important;
+  }
   main .shop-cards__card {
     width: 100%;
   }
